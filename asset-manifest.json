@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Sample_React_Repository_2_Quiambao/static/css/main.88404e20.css",
+    "main.js": "/Sample_React_Repository_2_Quiambao/static/js/main.2c37abc5.js",
+    "static/js/787.c5ca4160.chunk.js": "/Sample_React_Repository_2_Quiambao/static/js/787.c5ca4160.chunk.js",
+    "index.html": "/Sample_React_Repository_2_Quiambao/index.html",
+    "main.88404e20.css.map": "/Sample_React_Repository_2_Quiambao/static/css/main.88404e20.css.map",
+    "main.2c37abc5.js.map": "/Sample_React_Repository_2_Quiambao/static/js/main.2c37abc5.js.map",
+    "787.c5ca4160.chunk.js.map": "/Sample_React_Repository_2_Quiambao/static/js/787.c5ca4160.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.88404e20.css",
+    "static/js/main.2c37abc5.js"
+  ]
+}
