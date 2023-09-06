@@ -8,21 +8,38 @@ import {Link} from 'react-router-dom';
 const NavigationBar = () => {
   return ( 
     <>
-    <Navbar expand="lg" className="bg-dark">
+    <Navbar expand="lg" className="bg-danger">
       <Container>
-        <Navbar.Brand href="#home" className="text-white">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="text-white">
+            <Nav.Link >
                 <Link to="/">Home</Link>
             </Nav.Link>
-            <Nav.Link className="text-white">
+            <Nav.Link>
                 <Link to="/about">About Us</Link>
             </Nav.Link>
-            <Nav.Link className="text-white">
+            <Nav.Link>
                 <Link to="/contact">Contact Us</Link>
             </Nav.Link>
+            <NavDropdown title="Hooks" id="basic-nav-dropdown">
+              <NavDropdown.Item>
+                <Link to="/classState">
+                  Class Use State
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/functionalUseState">
+                  Functional Use State
+                </Link>
+              </NavDropdown.Item>
+              <NavDropdown.Item>
+                <Link to="/basicFormHandling">
+                  Basic Form Handling
+                </Link>
+              </NavDropdown.Item>
+            </NavDropdown>
         </Nav>
         </Navbar.Collapse>
       </Container>
